@@ -12,9 +12,33 @@
 </head>
 
 <body>
-	<header class="row">Crystal Collectors</header>
-	<section class="row" id="info"></section>
-	<section class="row" id="crystals"></section>
+	<div class="container">
+	    <header class="row">Crystal Collectors</header>
+	    <section class="row" id="nums">
+	        <div class="box">
+	            <div class="divTitle">Total</div>
+	            <div id="currentTotal"></div>
+	        </div>
+	        <div class="box">
+	            <div class="divTitle">Target</div>
+	            <div id="targetNum"></div>
+	        </div>
+	    </section>
+	    <section class="row" id="crystals"></section>
+	    <section class="row" id="info">
+	        <div class="box">
+	        	<div class="divTitle">Wins</div>
+	        	<div id="wins"></div>
+	        </div>
+	        <div class="box">
+	        	<div class="divTitle">Losses</div>
+	        	<div id="losses"></div>
+	        </div>
+	        <div class="box" id="currentTotal">
+				Info
+	        </div>
+	    </section>
+    </div>
     <script src="assets/javascript/game.js"></script>
 </body>
 
